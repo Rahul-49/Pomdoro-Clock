@@ -1,4 +1,4 @@
-# Pomodoro Clock ⏳
+# Pomodoro Clock Version 1 ⏳
 
 A stylish and functional Pomodoro Clock built using HTML, CSS, and JavaScript. Designed to help users manage time effectively using the Pomodoro Technique – alternating between focused work sessions and breaks.
 
