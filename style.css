@@ -1,0 +1,66 @@
+body{
+  background-color: black;
+}
+
+#clock_box {
+  font-family: "Press Start 2P", system-ui;
+  background-color: inherit;
+  background-color: rgba(171, 171, 171, 0.059);
+  border: 10px;
+  border-radius: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  width: 30rem;
+  height: 20rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h3,#text,#timer{
+  color: black;
+}
+body, h3, #text, #timer {
+  transition: background-color 2s ease, color  1s ease;
+}
+
+
+h3{
+  margin-top: 20px !important;
+}
+
+#timer{
+  font-size: xx-large;
+  margin-top: 20px !important;
+}
+
+#start,#reset {
+  position: absolute;
+  bottom: 25px;
+  transform: translateX(-50%);
+}
+
+#start {
+  left: 44%;
+  margin-right: 60px;
+}
+
+#reset {
+  left: 50%;
+  margin-left: 60px;
+  border-radius: 100%;
+}
+#pause {
+  position: absolute;
+  bottom: 25px;
+  left: 44%;
+  transform: translateX(-50%);
+}
+
+#focus, #break {
+  margin: 5px;
+  bottom: 70px;
+  font-size: x-small;
+}
+
